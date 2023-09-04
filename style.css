@@ -1,0 +1,99 @@
+@media screen and (min-width:1080px){
+body {
+   background-image: url("pnk3.jpg");
+   background-size:cover
+	font-family:perpetua;
+}
+}
+
+.daftar {
+    display: none;
+    width: 50%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.daftar{
+	background-color: #CC66CC;
+}
+.daftar table{
+	display: inline-block;
+/*	background-color: red;*/
+}
+.show-button{
+	width: 100px;
+
+}
+
+ol,ul{
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	display: inline-block;
+}
+
+.pasya ul li{
+	
+	font-size: 16px;
+	border: 1px solid black;
+}
+
+.pasya ol li{
+	border: 1px solid black;
+}
+
+.pasya ol h4{
+	margin: 3px;
+}
+
+ol,ul{
+	width: 180px;
+	height:auto;
+	border: 2px solid black;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+	.pasya{
+		border: 3px dashed; black;
+	}
+@media screen and (max-width:720px){
+	body{
+		background-color: powderblue;
+	}
+
+	.pasya ol, .pasyapiket ul{
+		margin: 10px 10px;
+	}
+	.psy, .pasya{
+		display: block;
+		margin: 20px 20px;
+		}
+
+}
+
+@media screen and (max-width:560px){
+	body{
+		background-color: powderblue;
+	}
+
+	.pasya ol, .pasyapiket ul{
+		margin: 10px 10px;
+	}
+	.psy, .pasya{
+		display: block;
+		margin: 20px 20px;
+		}
+
+}
+
+
+
+ 
